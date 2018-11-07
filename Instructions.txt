@@ -1,14 +1,15 @@
 There are two crawlers 'spidey' and 'zeus'
 
-1.'spidey' is for scraping item numbers and it asks for urls.txt, 
+1.'spidey' is scraping item numbers and it asks for urls.txt, 
 you're to put the leaf urls in that text file
 and then run it as " scrapy crawl spidey -o yourfilename.csv -t csv "
 
-2.'zeus' is for scraping images, price, breadcrums, title, description etc.
+2.'zeus' is scraping images, price, breadcrums, title, description etc.
 It asks for itemNumbers.txt, 
 you're to put item numbers(that you scraped from 'spidey') in that text file
 and then run it as " scrapy crawl zeus -o yourfilename.csv -t csv "
 
-Note: i have already put samples in 'urls.txt' & 'itemNumbers.txt' for your understanding! 
-Remove the samples(not the text files) after checking and paste there yours
+Note: I have already put samples in 'urls.txt' & 'itemNumbers.txt' for your understanding! 
+Remove the samples(not the text files) after checking and paste there yours.
+Cheers!
 
