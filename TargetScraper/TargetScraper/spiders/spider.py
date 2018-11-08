@@ -1,5 +1,4 @@
 from scrapy.spider import BaseSpider
-#from scrapy.selector import HtmlXPathSelector
 from scrapy.selector import Selector
 from scrapy.http import HtmlResponse
 from scrapy.http import FormRequest, Request
