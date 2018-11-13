@@ -10,7 +10,6 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
 BOT_NAME = 'TargetScraper'
-
 SPIDER_MODULES = ['TargetScraper.spiders']
 NEWSPIDER_MODULE = 'TargetScraper.spiders'
 DOWNLOAD_DELAY = 2.5
