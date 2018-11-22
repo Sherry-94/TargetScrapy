@@ -1,6 +1,5 @@
 from scrapy.item import Item, Field
 
-
 class TargetscraperItem(Item):
     Price = Field()
     Title = Field()
